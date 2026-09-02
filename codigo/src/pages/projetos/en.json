@@ -22,25 +22,13 @@
       ],
       "meta": ["FEB 2026 - AUGUST 2026", "DURATION OF 7 MONTHS", "BELO HORIZONTE"]
     },
-    "cras-digital": {
-      "credit": "CRAS PROCESS AUTOMATION",
-      "description": "Software aimed at digitizing and automating the operational processes carried out in the units of the Social Assistance Reference Center (CRAS). The system was designed to replace manual procedures, previously carried out through physical forms and paper records, with secure, standardized and accessible digital workflows.",
+    "governance-hub": {
+      "credit": "SYSTEM UNDER DEVELOPMENT",
+      "description": "Governance Hub is a new system I'm currently developing. The project is still under construction and more details will be added here soon.",
       "contributions": [
-        "Built the real-time projection mapping system",
-        "Implemented sensor-driven interactivity",
-        "Optimized performance for large-scale display"
+        "System still under construction..."
       ],
-      "meta": ["AUG 2025 - DEC 2025", "DURATION OF 5 MONTHS", "BELO HORIZONTE"]
-    },
-    "rhsoft": {
-      "credit": "HR PROCESS AUTOMATION",
-      "description": "RHSoft is a Human Resources system developed with the aim of computerizing HR management in an organization, centralizing employee data, automating payroll calculations and organizing the posting of job vacancies.",
-      "contributions": [
-        "Directed the lighting setup and photography",
-        "Developed custom post-processing pipelines",
-        "Created the exhibition web gallery"
-      ],
-      "meta": ["AUG 2025 - DEC 2025", "DURATION OF 5 MONTHS", "BELO HORIZONTE"]
+      "meta": ["JUL 2026 - PRESENT", "IN DEVELOPMENT", "BELO HORIZONTE"]
     }
   }
 }

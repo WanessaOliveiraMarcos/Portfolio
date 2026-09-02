@@ -91,41 +91,45 @@ export function ProjetoDetalhe() {
           </ul>
         </section>
 
-        <section className="flex flex-col gap-3">
-          <h2 className="text-sm font-mono uppercase tracking-[0.14em] text-zinc-500">
-            {t("pages.projetos.stack")}
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {project.techStack.map((tech) => (
-              <span
-                key={tech}
-                className="rounded-full border border-zinc-700 bg-zinc-800/60 px-4 py-1.5 text-sm text-zinc-300"
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-        </section>
+        {project.techStack.length > 0 && (
+          <section className="flex flex-col gap-3">
+            <h2 className="text-sm font-mono uppercase tracking-[0.14em] text-zinc-500">
+              {t("pages.projetos.stack")}
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {project.techStack.map((tech) => (
+                <span
+                  key={tech}
+                  className="rounded-full border border-zinc-700 bg-zinc-800/60 px-4 py-1.5 text-sm text-zinc-300"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </section>
+        )}
 
-        <section className="flex flex-col gap-3">
-          <h2 className="text-sm font-mono uppercase tracking-[0.14em] text-zinc-500">
-            {t("pages.projetos.links")}
-          </h2>
-          <div className="flex flex-wrap gap-3">
-            {project.links.map((link) => (
-              <a
-                key={link.label}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-zinc-700 bg-zinc-800/60 px-5 py-2 text-sm font-semibold text-zinc-200 transition-all hover:border-zinc-400 hover:text-white"
-              >
-                <ExternalLink size={14} />
-                {link.label}
-              </a>
-            ))}
-          </div>
-        </section>
+        {project.links.length > 0 && (
+          <section className="flex flex-col gap-3">
+            <h2 className="text-sm font-mono uppercase tracking-[0.14em] text-zinc-500">
+              {t("pages.projetos.links")}
+            </h2>
+            <div className="flex flex-wrap gap-3">
+              {project.links.map((link) => (
+                <a
+                  key={link.label}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full border border-zinc-700 bg-zinc-800/60 px-5 py-2 text-sm font-semibold text-zinc-200 transition-all hover:border-zinc-400 hover:text-white"
+                >
+                  <ExternalLink size={14} />
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
 
         {project.gallery.length > 0 && (
           <section className="flex flex-col gap-3">
@@ -150,7 +154,7 @@ export function ProjetoDetalhe() {
         alt={project.title.replace("\n", " ")}
         open={videoAberta}
         onClose={() => setVideoAberta(false)}
-        media="video"
+        media={project.demo.endsWith(".mp4") ? "video" : "image"}
       />
 
       <style>{`

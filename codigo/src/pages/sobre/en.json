@@ -2,9 +2,9 @@
   "pages": {
     "sobreMim": {
       "titulo": "About Me",
-      "saudacao": "Hi, im",
-      "bio": "I'm a Software Engineer from Minas Gerais, with FullStack experience and a focus on Backend. I work with <strong>Java, SpringBoot</strong> and <strong>Docker</strong> for the server side and <strong>React, Typescript</strong> and other <strong>modern UI Frameworks</strong> for the client side",
-      "cta": "Check out my <1>Experience</1> to see my professional growth, or browse my skills applied in my <3>Projects</3>. If you'd like to get in touch, visit my <5>Contact</5> page"
+      "saudacao": "Hi, I'm",
+      "bio": "I'm a Software Engineer and Software Development Technician, specializing in FullStack development with a strong focus on Backend. My main expertise is in <strong>PHP, Laravel</strong> and <strong>Filament</strong>, building scalable and maintainable applications. I also have experience with <strong>Java and Spring Boot</strong> for Backend development, as well as <strong>React and Vue</strong> for creating modern and responsive interfaces. In addition, I work with deployment and cloud infrastructure using <strong>CapRover, AWS, DigitalOcean</strong> and <strong>Hostinger</strong>",
+      "cta": "Check out my <1>Experience</1> to learn more about my professional journey, or explore my <3>Projects</3> to see my skills in practice. If you'd like to get in touch, visit my <5>Contact</5> page"
     }
   }
 }

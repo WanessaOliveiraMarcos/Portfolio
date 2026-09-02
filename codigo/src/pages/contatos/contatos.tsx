@@ -51,21 +51,21 @@ const SocialsBlock: React.FC<{ onEmailClick: () => void }> = ({
 
   const socialLinks: SocialLink[] = [
     {
-      href: 'https://www.linkedin.com/in/joaquim-antonio/',
+      href: 'https://www.linkedin.com/in/wanessa-de-oliveira-marcos-099342235/',
       label: t("pages.contatos.linkedin"),
       icon: <User size={28} />,
       bg: 'bg-zinc-800',
       text: 'text-white',
     },
     {
-      href: 'https://github.com/joaquim-antonio',
+      href: 'https://github.com/WanessaOliveiraMarcos',
       label: t("pages.contatos.github"),
       icon: <Code2 size={28} />,
       bg: 'bg-zinc-800',
       text: 'text-white',
     },
     {
-      href: 'https://wa.me/5533998640504',
+      href: 'https://wa.me/5531998411041',
       label: t("pages.contatos.whatsapp"),
       icon: <MessageCircleMore size={28} />,
       bg: 'bg-zinc-800',

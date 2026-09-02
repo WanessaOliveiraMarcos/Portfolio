@@ -2,9 +2,9 @@
   "pages": {
     "sobreMim": {
       "titulo": "Sobre Mim",
-      "saudacao": "Olá, eu sou o",
-      "bio": "Sou um Engenheiro de Software mineiro, com experiência FullStack e foco no Backend. Trabalho com <strong>Java, SpringBoot</strong> e <strong>Docker</strong> para o servidor da aplicação e <strong>React, Typescript</strong> e outros <strong>Frameworks de UI modernos</strong> para o cliente da aplicação",
-      "cta": "Acesse minhas <1>Experiências</1> para visualizar minha evolução como profissional, ou então veja minhas habilidades aplicadas nos meus <3>Projetos</3>. Se tiver interesse em falar comigo entre em <5>Contato</5>"
+      "saudacao": "Olá, eu sou",
+      "bio": "Sou Engenheira de Software e Técnica em Desenvolvimento de Software, especializada em desenvolvimento FullStack, com forte foco em Backend. Minha principal experiência é com <strong>PHP, Laravel</strong> e <strong>Filament</strong>, desenvolvendo aplicações escaláveis e de fácil manutenção. Também tenho experiência com <strong>Java e Spring Boot</strong> para desenvolvimento Backend, além de <strong>React e Vue</strong> para criação de interfaces modernas e responsivas. Também trabalho com tecnologias de implantação e infraestrutura em nuvem, utilizando <strong>CapRover, AWS, DigitalOcean</strong> e <strong>Hostinger</strong>",
+      "cta": "Confira minha <1>Experiência</1> para conhecer minha trajetória profissional ou explore meus <3>Projetos</3> para ver minhas habilidades na prática. Se quiser entrar em contato, visite minha página de <5>Contato</5>"
     }
   }
 }
