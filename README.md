@@ -1,6 +1,10 @@
 # Portfólio Pessoal
 
-Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades e informações de contato. Acesse em: link...
+Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades e informações de contato.
+
+## 🌐 Acesso Online
+
+🔗 [https://portfolio-wanessa.onrender.com/](https://portfolio-wanessa.onrender.com/)
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -21,9 +25,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git## 🌐 Acesso Online
-
-🔗 Ainda não publicado.
+   git clone https://github.com/seu-usuario/seu-repositorio.git
    ```
 
 2. Acesse a pasta do projeto:
