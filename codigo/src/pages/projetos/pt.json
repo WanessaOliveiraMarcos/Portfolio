@@ -12,6 +12,14 @@
     }
   },
   "projects": {
+    "ai-for-inclusion": {
+      "credit": "ORIENTAÇÃO: VIRGÍNIA FERNANDES MOTA",
+      "description": "Iniciação científica pela UFMG que investiga, por meio de uma revisão sistemática da literatura, como a Inteligência Artificial pode ser aplicada para promover acessibilidade em jogos digitais.",
+      "contributions": [
+        "Conduzi a revisão sistemática da literatura, buscando, selecionando e analisando estudos sobre o uso de Inteligência Artificial para acessibilidade em jogos digitais."
+      ],
+      "meta": ["UFMG", "INICIAÇÃO CIENTÍFICA"]
+    },
     "modus": {
       "credit": "GERENCIAMENTO DE PROJETOS",
       "description": "O Modus é um sistema de gestão de projetos arquitetônicos desenvolvido para escritórios que conduzem múltiplos projetos simultaneamente. Seu objetivo é centralizar e organizar as informações das atividades, respeitando a sequência metodológica do processo de elaboração arquitetônica.",

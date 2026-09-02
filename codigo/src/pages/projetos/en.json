@@ -12,6 +12,14 @@
     }
   },
   "projects": {
+    "ai-for-inclusion": {
+      "credit": "ADVISOR: VIRGÍNIA FERNANDES MOTA",
+      "description": "Undergraduate research at UFMG investigating, through a systematic literature review, how Artificial Intelligence can be applied to promote accessibility in digital games.",
+      "contributions": [
+        "Conducted the systematic literature review, searching, screening, and analyzing studies on the use of Artificial Intelligence for accessibility in digital games."
+      ],
+      "meta": ["UFMG", "UNDERGRADUATE RESEARCH"]
+    },
     "modus": {
       "credit": "PROJECT MANAGEMENT",
       "description": "Modus is an architectural project management system developed for offices that run multiple projects simultaneously. Its goal is to centralize and organize activity information, respecting the methodological sequence of the architectural design process.",

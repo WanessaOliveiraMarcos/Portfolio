@@ -23,6 +23,15 @@ type ProjectStatic = Omit<Project, "description" | "contributions" | "credit" | 
 
 const PROJECTS: ProjectStatic[] = [
   {
+    id: "ai-for-inclusion",
+    title: "AI for Inclusion:\nA Systematic Review on AI for Accessibility in Digital Games",
+    logo: "/projetos/ai-for-inclusion/logo.svg",
+    demo: "/projetos/ai-for-inclusion/demo.svg",
+    techStack: [],
+    links: [],
+    gallery: [],
+  },
+  {
     id: "modus",
     title: "MODUS",
     logo: "/projetos/modus/modus-logo.png",
